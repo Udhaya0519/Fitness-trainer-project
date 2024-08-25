@@ -1,0 +1,456 @@
+:root {
+    --orange: rgb(236, 134, 76)
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Open Sans, sans-serif;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+
+/* header start */
+
+
+.head{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 20px 15px;
+}
+
+
+
+.head-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-wrapper>:nth-child(1)>h1{
+    color: white;
+}
+.head-wrapper>:nth-child(1)>h1>span{
+    color:  rgb(236, 134, 76);
+}
+.head-wrapper>:nth-child(2)>ul{
+    display: flex;
+    gap: 20px;
+}
+
+.head-wrapper>:nth-child(3)>a{
+    background-color: var(--orange);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.head-wrapper>:nth-child(3)>a:hover{
+    background-color: black;
+    transition-duration: 0.3s;
+}
+
+.head-wrapper>:nth-child(4){
+    display: none;
+}
+
+/* header end */
+
+/* banner section start */
+
+.banner{
+    margin-top: 20px;
+    background-image: url("./Free\ Photo\ _\ Muscular\ man\ doing\ weightlifting\ in\ fitness\ center.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+}
+
+.banner-wrapper{
+    text-align: center;
+    padding: 200px 0px;
+}
+.banner-wrapper>div:nth-child(1)>h1,
+.banner-wrapper>div:nth-child(1)>p,
+.banner-wrapper>div:nth-child(1)>div{
+    margin-bottom: 40px;
+}
+
+.banner-wrapper>div:nth-child(1)>h1{
+    color: white;
+    font-size: 90px;
+    text-shadow: 0 0 40px #000;
+}
+.banner-wrapper>div:nth-child(1)>p{
+    color: white;
+    text-shadow: 0 0 40px #000;
+}
+.banner-wrapper>div:nth-child(1)>h1>span{
+    display: block;
+}
+
+.banner-wrapper>div:nth-child(1)>h1>span:nth-child(2)>span:nth-child(1){
+    color: var(--orange);
+}
+.banner-wrapper>div:nth-child(1)>p>span{
+    display: block;
+}
+.banner-wrapper>div:nth-child(1)>div>a{
+    background-color: var(--orange);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.banner-wrapper>div:nth-child(1)>div>a:hover{
+    background-color: rgba(236, 135, 76, 0.826);
+    transition-duration: 0.3s;
+}
+
+
+/* banner section end */
+
+
+
+
+
+/* packages section start */
+
+.packages{
+    padding: 0 15px;
+}
+
+.packages-wrapper{
+    display: flex;
+    padding: 150px 0;
+    justify-content: space-between;
+}
+.packages-wrapper>div{
+    width: 297px;
+}
+.packages-wrapper>div:nth-child(1){
+    background-color: rgba(245, 169, 102, 0.704);
+    border-radius: 10px;
+    padding: 60px 50px;
+}
+.packages-wrapper>div:nth-child(2){
+    background-color: rgba(245, 169, 102, 0.704);
+    border-radius: 10px;
+    padding: 60px 50px;
+}
+.packages-wrapper>div:nth-child(3){
+    background-color: rgba(245, 169, 102, 0.704);
+    border-radius: 10px;
+    padding: 60px 50px;
+}
+.packages-wrapper>div:nth-child(4){
+    background-color: rgba(245, 169, 102, 0.704);
+    border-radius: 10px;
+    padding: 60px 50px;
+}
+/* #c7611a */
+.packages-wrapper>div:nth-child(1)>h1{
+    font-size: 40px;
+}
+.packages-wrapper>div:nth-child(2)>h1{
+    font-size: 40px;
+}
+.packages-wrapper>div:nth-child(3)>h1{
+    font-size: 40px;
+}
+.packages-wrapper>div:nth-child(4)>h1{
+    font-size: 40px;
+}
+.packages-wrapper>div:nth-child(1)>h1>span{
+    display: block;
+}
+.packages-wrapper>div:nth-child(2)>h1>span{
+    display: block;
+}
+.packages-wrapper>div:nth-child(3)>h1>span{
+    display: block;
+}
+.packages-wrapper>div:nth-child(4)>h1>span{
+    display: block;
+}
+
+.packages-wrapper>div:nth-child(1)>p>span{
+    display: block;
+}
+.packages-wrapper>div:nth-child(2)>p>span{
+    display: block;
+}
+.packages-wrapper>div:nth-child(3)>p>span{
+    display: block;
+}
+.packages-wrapper>div:nth-child(4)>p>span{
+    display: block;
+}
+
+
+.packages-wrapper>div:nth-child(1)>p{
+   margin-bottom: 50px;
+}
+.packages-wrapper>div:nth-child(2)>p{
+    margin-bottom: 50px;
+}
+.packages-wrapper>div:nth-child(3)>p{
+    margin-bottom: 50px;
+}
+.packages-wrapper>div:nth-child(4)>p{
+    margin-bottom: 50px;
+}
+
+
+
+/* packages section end */
+
+
+
+/* feedback section start */
+
+
+
+.feedback{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.feedback-wrapper>h1>span{
+    color: var(--orange);
+}
+.feedback-wrapper>h1{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+}
+.feedback-wrapper>p{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+.feedback-wrapper>div>h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+.feedback-wrapper>div {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    border-radius: 20px;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: #251b12;
+}
+.feedback-wrapper>div>div>h4{
+    color: #ffffff;
+    font-size: 20px;
+}
+.feedback-wrapper>div>div{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 10px 10px;
+    margin-top: 50px;
+}
+
+.feedback-wrapper>div>h3>span{
+    display: block;
+    
+}
+
+
+/* feedback section end */
+
+
+
+
+  /* footer section start */
+
+.foot{
+    margin: 50px 0;
+    border-top: solid white 2px;
+}
+
+.foot-wrapper>div>h1{
+    color: #ffffff;
+}
+.foot-wrapper>div>p{
+    color: #ffffff;
+}
+.foot-wrapper>div>h1>span{
+    color: var(--orange);
+}
+.foot-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0 15px;
+    padding-top: 30px;
+}
+.foot-wrapper>div:nth-child(2)>ul{
+    display: flex;
+    gap: 20px;
+}
+.foot-wrapper>div:nth-child(2)>ul>li>a{
+    text-decoration: underline;
+}
+
+.copyright{
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(73, 71, 71, 0.408);
+}
+.copyright>p{
+    color: #ffffff;
+    font-size: 12px;
+}
+.copyright>p>span{
+    color: var(--orange);
+}
+
+
+@media (max-width: 1300px){
+    .packages-wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px 20px;
+    }
+    
+
+    
+    
+
+}
+
+
+     /* footer section end */
+
+
+
+@media (max-width: 1000px){
+    .head{
+        padding: 10px;
+        margin-top: 0;
+    }
+    .head-wrapper>:nth-child(2)>ul{
+        flex-direction: column;
+        position: absolute;
+        left:-70%;
+        top: 55px;
+        background-color: black;
+        width:60%;
+        height:100vh;
+        padding: 20px 30px;
+        gap: 40px;
+        text-align: center;
+    }
+    .head-wrapper>:nth-child(3)>a{
+        display: none;
+    }
+    .head-wrapper>:nth-child(4){
+        display: flex;
+    }
+    .banner{
+        margin-top: 20px;
+    }
+    .banner-wrapper>div:nth-child(1)>h1{
+        margin-bottom: 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .banner-wrapper>div:nth-child(1)>h1>span{
+        display: inline;
+    }
+    .banner-wrapper>div:nth-child(1)>p>span{
+        display: inline;
+    }
+    .banner{
+        padding: 0 20px;
+    }
+    .banner-wrapper{
+        text-align: left;
+        
+    }
+    .banner-wrapper>div:nth-child(1)>h1>span:nth-child(2)>span:nth-child(1){
+        display: block;
+    }
+    .banner-wrapper>div:nth-child(1)>p{
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .banner-wrapper>div:nth-child(1)>div{
+        text-align: center;
+    }
+    
+
+    .feedback-wrapper{
+        padding: 0 10px;
+    }
+
+    .feedback-wrapper>h1{
+        font-size: 30px;
+    }
+    .feedback-wrapper>div>h3{
+        font-size: 20px;
+    }
+
+    .feedback-wrapper>div>div{
+        flex-direction: column;
+    }
+
+
+    .foot-wrapper{
+        flex-direction: column;
+    }
+    .foot-wrapper>:nth-child(2){
+        order: -1;
+    }
+
+    .copyright>p{
+        font-size: 10px;
+    }
+    .copyright{
+        background-color: rgba(128, 128, 128, 0.847);
+    }
+
+     
+  
+
+}
+
+@media (max-width:450px){
+    main{
+        overflow-x: hidden;
+    }
+    .banner-wrapper>div:nth-child(1)>h1{
+        font-size: 30px;
+        
+    }
+    .packages-wrapper>div{
+        width: 100%;
+        /* text-align: center; */
+    }
+
+
+}
