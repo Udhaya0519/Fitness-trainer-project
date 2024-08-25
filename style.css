@@ -165,7 +165,6 @@ ul {
     border-radius: 10px;
     padding: 60px 50px;
 }
-/* #c7611a */
 .packages-wrapper>div:nth-child(1)>h1{
     font-size: 40px;
 }
@@ -266,7 +265,6 @@ ul {
     display: flex;
     gap:30px;
     align-items: center;
-    /* justify-content: space-between; */
     padding: 10px 10px;
     margin-top: 50px;
 }
@@ -449,7 +447,6 @@ ul {
     }
     .packages-wrapper>div{
         width: 100%;
-        /* text-align: center; */
     }
 
 
